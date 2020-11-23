@@ -5,6 +5,29 @@
 }
 
 
+/* MENU */
+
+#menu{
+    position: fixed;
+    width: 100vw;
+    height: 54px;
+    background-color: #242424;
+}
+
+ #ul-menu{
+    margin-left: 21%;
+   padding-top: 1.5%;
+}
+
+
+a{
+   color: white;
+}
+
+#ul-menu li:hover{
+     border-bottom: solid 2px white;
+}
+
 /* wallpaper */
 
 #back{
@@ -66,7 +89,7 @@
 
 /* galeria */
 
-#titulo{
+.div_titulo{
     width: 100vw;
     height: 100px;
     display: flex;
@@ -76,7 +99,7 @@
     margin-top: 8%;
 }
 
-#titulo-favoritas{
+.h2_titulo{
     color: white;
 }
 
@@ -119,4 +142,21 @@ figure:hover{
 ul li{
     display: inline-block;
     margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+/* história */
+
+.p_historia{
+    width: 400px;
+    text-align: justify;
+}
+
+.img-historia{
+    width: 300px;
+    box-shadow: 3px 0px 10px black;
+}
+
+.secHistoria{
+    margin-top: 20%;
 }

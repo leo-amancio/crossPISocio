@@ -10,6 +10,18 @@
 <body>
 
 
+    <!-- MENU -->
+
+    <div id="menu">
+        <ul id="ul-menu">
+            <a href="#"><li>Início</li></a>
+            <a href="#musicasFavoritas"><li>Músicas favoritas</li></a>
+            <a href="#historiaMusica"><li>História da música</li></a>
+            <a href="#psicologiaMusica"><li>Psicologia da música</li></a>
+        </ul>
+    </div>
+
+
     <!-- fundo -->
     <div id="back">
         <div id="container-back">
@@ -35,10 +47,14 @@
 
 <!-- musicas-favoritas -->
 
+<a name="musicasFavoritas"></a>
+
 <div id='favoritas' style="background-image: linear-gradient(to right, #96618d,#5e5294)">
 
-    <div id="titulo">
-        <h2 id="titulo-favoritas">MUSICAS FAVORITAS</h2>
+  
+
+    <div class="div_titulo">
+        <h2 class="h2_titulo">MUSICAS FAVORITAS</h2>
     </div>
    
 
@@ -92,24 +108,88 @@
                 </figcaption>
             </figure>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+       
+        <li>
+            <figure class='figure-galeria'>
+                <img src="img/bach.jfif" class='img-galeria'>
+                <figcaption>
+                <span class='span-legend'>
+                    <b> Johann Sebastian Bach </b> <br>
+                    <p style="margin-left: 3%;">Ária da corda sol</p>
+                </span>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class='figure-galeria'>
+                <img src="img/redhot.jfif" class='img-galeria'>
+                <figcaption>
+                <span class='span-legend'>
+                    <b> Red Hot Chili Peppers </b> <br>
+                    <p style="margin-left: 3%;">Californication</p>
+                </span>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class='figure-galeria'>
+                <img src="img/acc.jfif" class='img-galeria'>
+                <figcaption>
+                <span class='span-legend'>
+                    <b> AC DC </b> <br>
+                    <p style="margin-left: 3%;">Thunderstruck</p>
+                </span>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure class='figure-galeria'>
+                <img src="img/beethoven.jpg" class='img-galeria'>
+                <figcaption>
+                <span class='span-legend'>
+                    <b> Ludwig Van Beethoven </b> <br>
+                    <p style="margin-left: 3%;">Ode a alegria</p>
+                </span>
+                </figcaption>
+            </figure>
+        </li>
     </ul>
+</div>
+
+<div class="div_titulo" style="margin-top: -5%">
+    <h2 class="h2_titulo">HISTÓRIA DA MÚSICA</h2>
+</div>
+
+<div id="historia">
 
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <section id='antiguidade' class="secHistoria">
+        <img src="img/musica-pre.jfif" class='img-historia'style="margin-left: 10%">
+        <p class='p_historia' style="float: right; margin-right: 10%; margin-top: 3%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate at magni iusto non culpa deserunt, temporibus, laboriosam labore deleniti omnis rerum similique voluptatibus exercitationem! Iusto possimus debitis similique at perspiciatis.</p>
+    </section>
+
+
+
+    <section id='idade-media' class="secHistoria">
+        <img src="img/media.jpg" class='img-historia'style="float: right; margin-right: 17%">
+        <p class='p_historia' style="float: left; margin-left: 10%; margin-top: 3%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate at magni iusto non culpa deserunt, temporibus, laboriosam labore deleniti omnis rerum similique voluptatibus exercitationem! Iusto possimus debitis similique at perspiciatis.</p>
+    </section>
+
+
+
+    <section id='idade-moderna' class="secHistoria">
+        <img src="img/moderna.jpg" class='img-historia'style="margin-left: 10%; margin-top: 20%">
+        <p class='p_historia' style="float: right; margin-right: 10%; margin-top: -11%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate at magni iusto non culpa deserunt, temporibus, laboriosam labore deleniti omnis rerum similique voluptatibus exercitationem! Iusto possimus debitis similique at perspiciatis.</p>
+    </section>
+
+
+
+
+
 </div>
 
 </body>
